@@ -1,4 +1,3 @@
-# mode 1 is 3 varible equation, mode 0 is 2 varible equation
 def solve(*args):
   
   if len(args) == 2:
