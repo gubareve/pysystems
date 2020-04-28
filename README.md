@@ -1,4 +1,6 @@
-# pysystems
+# [pysystems](https://pypi.org/project/pysystems/)
+
+
 A python package for solving multi-varible systems of equations
 
 ![PyPI](https://img.shields.io/pypi/v/pysystems)
