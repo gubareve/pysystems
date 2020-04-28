@@ -1,7 +1,6 @@
 # pysystems
 A python package for solving multi-varible systems of equations
 
-![Upload Python Package](https://github.com/gubareve/pysystems/workflows/Upload%20Python%20Package/badge.svg)
 ![PyPI](https://img.shields.io/pypi/v/pysystems)
 
 
