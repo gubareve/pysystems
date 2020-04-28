@@ -18,7 +18,7 @@ import pysystems
 
 solve = pysystems.solve
 
-print(solve(0, "2x+y=14", "2x+17y=21")) ---> (6.78125, 0.4375)
+print(solve("2x+y=14", "2x+17y=21")) ---> (6.78125, 0.4375)
 
 or
 
