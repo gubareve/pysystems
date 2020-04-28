@@ -1,10 +1,9 @@
 # mode 1 is 3 varible equation, mode 0 is 2 varible equation
-def solve(equation1, equation2, equation3):
-  mode = 1
-  if equation1 == 0:
-    mode = 0
-    equation1 = equation2
-    equation2 = equation3
+def solve(*args):
+  
+  if len(args) == 2:
+    equation1 = args[0]
+    equation2 = args[1]
     x = equation1.split("=")
     y = x[0].split("+")
     try:
@@ -42,7 +41,10 @@ def solve(equation1, equation2, equation3):
       return solved_x, solved_y
     else:
       return "No Unique Value", "No Unique Value"
-  else:
+  elif len(args) == 3:
+    equation1 = args[0]
+    equation2 = args[1]
+    equation3 = args[2]
     x = equation1.split("=")
     y = x[0].split("+")
 
@@ -102,3 +104,5 @@ def solve(equation1, equation2, equation3):
        return solved_x, solved_y, solved_z
     else:
       return "No Unique Value", "No Unique Value", "No Unique Value"
+  else:
+    return "Only supports systems with 2 or 3 equations"
