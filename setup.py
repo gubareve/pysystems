@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pysystemst',
-    version='1.6.2',
+    name='pysystems',
+    version='1.0.0',
     packages=find_packages(exclude=['.github*']),
     license='GNU',
-    description='a python package to generate blocktext',
+    description='A python package to solve multi-varible systems of equations',
     long_description=open('README.txt').read(),
     install_requires=['numpy'],
     url='https://github.com/gubareve/pysystems/',
