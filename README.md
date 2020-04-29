@@ -3,7 +3,7 @@
 
 A python package for solving multi-varible systems of equations
 
-![PyPI](https://img.shields.io/pypi/v/pysystems)
+![PyPI](https://img.shields.io/pypi/v/pysystems)![Python package](https://github.com/gubareve/pysystems/workflows/Python%20package/badge.svg)![Upload Python Package](https://github.com/gubareve/pysystems/workflows/Upload%20Python%20Package/badge.svg)
 
 
 # Install
